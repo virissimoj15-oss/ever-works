@@ -8,7 +8,8 @@
 		"remotion:render": "remotion render remotion/index.ts HelloWorld out/remotion-hello.mp4",
 		"hyperframes": "hyperframes",
 		"test": "bash ./test-tools.sh",
-		"postinstall": "node scripts/vendor-gsap.mjs"
+		"postinstall": "node scripts/vendor-gsap.mjs",
+		"type-check": "tsc -p tsconfig.json"
 	},
 	"dependencies": {
 		"@remotion/cli": "4.0.541",
@@ -22,5 +23,9 @@
 		"onlyBuiltDependencies": [
 			"esbuild"
 		]
+	},
+	"devDependencies": {
+		"@types/react": "^19.3.0",
+		"typescript": "5.9.3"
 	}
 }

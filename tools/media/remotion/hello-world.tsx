@@ -8,7 +8,15 @@ export const HelloWorld: React.FC = () => {
 
 	return (
 		<AbsoluteFill style={{ backgroundColor: '#0f172a', justifyContent: 'center', alignItems: 'center' }}>
-			<h1 style={{ color: 'white', fontSize: 96, fontFamily: 'sans-serif', opacity, transform: `scale(${scale})` }}>
+			<h1
+				style={{
+					color: 'white',
+					fontSize: 96,
+					fontFamily: 'sans-serif',
+					opacity,
+					transform: `scale(${scale})`
+				}}
+			>
 				Remotion OK
 			</h1>
 		</AbsoluteFill>

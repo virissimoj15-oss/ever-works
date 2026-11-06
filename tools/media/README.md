@@ -2,13 +2,13 @@
 
 Local video/audio toolchain, kept outside the pnpm workspace (it is not an app or a package of the monorepo).
 
-| Tool | What it does | Installed as | Version |
-| --- | --- | --- | --- |
-| [Remotion](https://www.remotion.dev) | Videos as React components | `remotion`, `@remotion/cli` (pnpm, `node_modules/`) | 4.0.541 |
-| [HyperFrames](https://hyperframes.heygen.com) | Videos as HTML + GSAP timelines | `hyperframes` (pnpm, `node_modules/`) | 0.9.19 |
-| [FFmpeg](https://ffmpeg.org) | Encoding, probing, cutting | system package (`apt-get install ffmpeg`) | 6.1.1 |
-| [Whisper](https://github.com/openai/whisper) | Speech-to-text | `openai-whisper` (Python venv, `.venv/`) | 20250625 (PyTorch 2.15.0) |
-| [yt-dlp](https://github.com/yt-dlp/yt-dlp) | Download video/audio from URLs | `yt-dlp` (Python venv, `.venv/`) | 2026.10.26 |
+| Tool                                          | What it does                    | Installed as                                        | Version                   |
+| --------------------------------------------- | ------------------------------- | --------------------------------------------------- | ------------------------- |
+| [Remotion](https://www.remotion.dev)          | Videos as React components      | `remotion`, `@remotion/cli` (pnpm, `node_modules/`) | 4.0.541                   |
+| [HyperFrames](https://hyperframes.heygen.com) | Videos as HTML + GSAP timelines | `hyperframes` (pnpm, `node_modules/`)               | 0.9.19                    |
+| [FFmpeg](https://ffmpeg.org)                  | Encoding, probing, cutting      | system package (`apt-get install ffmpeg`)           | 6.1.1                     |
+| [Whisper](https://github.com/openai/whisper)  | Speech-to-text                  | `openai-whisper` (Python venv, `.venv/`)            | 20250625 (PyTorch 2.15.0) |
+| [yt-dlp](https://github.com/yt-dlp/yt-dlp)    | Download video/audio from URLs  | `yt-dlp` (Python venv, `.venv/`)                    | 2026.10.26                |
 
 ## Setup
 
