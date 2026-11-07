@@ -1,0 +1,6 @@
+node_modules/
+.venv/
+out/
+hyperframes-demo/assets/vendor/
+hyperframes-demo/renders/
+hyperframes-demo/.hyperframes/

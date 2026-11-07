@@ -1,0 +1,31 @@
+{
+	"name": "media-tools",
+	"private": true,
+	"description": "Local media toolchain: Remotion, HyperFrames (Node) + Whisper, yt-dlp (Python venv) + FFmpeg (system)",
+	"type": "module",
+	"scripts": {
+		"remotion:studio": "remotion studio remotion/index.ts",
+		"remotion:render": "remotion render remotion/index.ts HelloWorld out/remotion-hello.mp4",
+		"hyperframes": "hyperframes",
+		"test": "bash ./test-tools.sh",
+		"postinstall": "node scripts/vendor-gsap.mjs",
+		"type-check": "tsc -p tsconfig.json"
+	},
+	"dependencies": {
+		"@remotion/cli": "4.0.541",
+		"gsap": "3.15.0",
+		"hyperframes": "0.9.19",
+		"react": "19.2.3",
+		"react-dom": "19.2.3",
+		"remotion": "4.0.541"
+	},
+	"pnpm": {
+		"onlyBuiltDependencies": [
+			"esbuild"
+		]
+	},
+	"devDependencies": {
+		"@types/react": "^19.3.0",
+		"typescript": "5.9.3"
+	}
+}
